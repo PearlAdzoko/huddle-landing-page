@@ -246,7 +246,7 @@
   width: 100%;
   font-size: 16px;
   font-weight: 600;
-  padding: 3rem 1rem;
+  padding: 3rem 2rem;
   border-radius: 1.5rem;
   box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.05);
   /* position: absolute; */
@@ -258,22 +258,13 @@
   margin-bottom: 2rem;
 }
 
-.bttn-container .button p{
-    color: white;
-    background: hsl(322, 100%, 66%);
-    font-size: 16px;
-    font-weight: 600;
-    padding: 0.5rem 3rem;
-    border-radius: 2rem;
-}
-
 .footer {
   background-color: hsl(192, 100%, 9%);
   padding-top: 10rem;
   /* margin-bottom: 9rem; */
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -300,7 +291,7 @@
 }
 
 .location p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 2.5rem;
   font-weight: 300;
   margin-top: -0.5rem;
@@ -320,7 +311,7 @@
 }
 
 .phone p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: -1.6rem;
   font-weight: 300;
 }
@@ -339,7 +330,7 @@
 }
 
 .email p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 0rem;
   font-weight: 300;
 }
@@ -363,7 +354,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -404,13 +395,13 @@ ul li a {
 }
 
 .attribution{
+    color: white;
     margin-top: 4rem;
     margin-bottom: 2rem;
-    font-size: 14px;
 }
 
 .attribution a{
-    color: rgb(235, 195, 16);
+    color: white;
 }
 
 @media screen and (min-width: 1024px) {
@@ -560,9 +551,6 @@ ul li a {
 
   .footer * {
     font-size: 1rem !important;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 3rem;
   }
 
   .footer-info-row {
